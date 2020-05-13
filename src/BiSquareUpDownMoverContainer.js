@@ -5,7 +5,7 @@ import BiSquareUpDownMoverPresentational from './BiSquareUpDownMoverPresentation
 const BiSquareUpDownMoverContainer = (props) => {
     const {w, h} = useDimension()
     const {scale, start} = useAnimatedScale(0.02 /4, 20)
-    return <BiSquareUpDownMoverPresentational w = {w} h = {w} scale = {scale} onClick = {start}>
+    return <BiSquareUpDownMoverPresentational w = {w} h = {h} scale = {scale} onClick = {start}>
         </BiSquareUpDownMoverPresentational>
 }
 
